@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0F093149-0D94-43F5-827E-8C4A5A4B3EC4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5C8F7B8-A7D2-4D0F-8107-3DFD8E5EA63B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SarmanFarms/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "webView(_:didFinish:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB6EA399-B456-4A02-A95E-90545FE20DBA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SarmanFarms/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "webView(_:didStartProvisionalNavigation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB6EA399-B456-4A02-A95E-90545FE20DBA - ec3e7437b0d90ee1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SarmanFarms.ViewController.webView(_: __C.WKWebView, didStartProvisionalNavigation: Swift.Optional&lt;__C.WKNavigation&gt;) -&gt; ()"
+                  moduleName = "SarmanFarms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alimurad/Desktop/SarmanFarms/SarmanFarms/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "CB6EA399-B456-4A02-A95E-90545FE20DBA - ec3e7437b0d90ee1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SarmanFarms.ViewController.webView(_: __C.WKWebView, didStartProvisionalNavigation: Swift.Optional&lt;__C.WKNavigation&gt;) -&gt; ()"
+                  moduleName = "SarmanFarms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alimurad/Desktop/SarmanFarms/SarmanFarms/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2598B0A-EDAA-4CC5-8838-1C1758E23DB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SarmanFarms/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "webView(_:decidePolicyFor:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E2598B0A-EDAA-4CC5-8838-1C1758E23DB2 - ff56025410deab26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SarmanFarms.ViewController.webView(_: __C.WKWebView, decidePolicyFor: __C.WKNavigationAction) async -&gt; __C.WKNavigationActionPolicy"
+                  moduleName = "SarmanFarms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alimurad/Desktop/SarmanFarms/SarmanFarms/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E2598B0A-EDAA-4CC5-8838-1C1758E23DB2 - 712ce90436c0f6ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SarmanFarms.ViewController.webView(_: __C.WKWebView, decidePolicyFor: __C.WKNavigationAction) async -&gt; __C.WKNavigationActionPolicy"
+                  moduleName = "SarmanFarms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alimurad/Desktop/SarmanFarms/SarmanFarms/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7406F4DB-5A52-48F7-95C4-6F02A8BA1DFB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SarmanFarms/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "webView(_:decidePolicyFor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

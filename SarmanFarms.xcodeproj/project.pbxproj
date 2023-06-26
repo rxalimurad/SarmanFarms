@@ -10,9 +10,13 @@
 		3C2930F32A4A034400124F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2930F22A4A034400124F17 /* AppDelegate.swift */; };
 		3C2930F52A4A034400124F17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2930F42A4A034400124F17 /* SceneDelegate.swift */; };
 		3C2930F72A4A034400124F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2930F62A4A034400124F17 /* ViewController.swift */; };
-		3C2930FA2A4A034400124F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2930F82A4A034400124F17 /* Main.storyboard */; };
 		3C2930FC2A4A034500124F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2930FB2A4A034500124F17 /* Assets.xcassets */; };
 		3C2930FF2A4A034500124F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2930FD2A4A034500124F17 /* LaunchScreen.storyboard */; };
+		3C2931082A4A09A400124F17 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 3C2931072A4A09A400124F17 /* JGProgressHUD */; };
+		3C29310A2A4A09BB00124F17 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2931092A4A09BB00124F17 /* UserDefaults.swift */; };
+		3C29310C2A4A09C100124F17 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C29310B2A4A09C100124F17 /* Settings.swift */; };
+		3C29310E2A4A09CA00124F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C29310D2A4A09CA00124F17 /* Main.storyboard */; };
+		3C2931102A4A09D100124F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C29310F2A4A09D100124F17 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,13 @@
 		3C2930F22A4A034400124F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C2930F42A4A034400124F17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3C2930F62A4A034400124F17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C2930F92A4A034400124F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C2930FB2A4A034500124F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C2930FE2A4A034500124F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C2931002A4A034500124F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2931092A4A09BB00124F17 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		3C29310B2A4A09C100124F17 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3C29310D2A4A09CA00124F17 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3C29310F2A4A09D100124F17 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C2931082A4A09A400124F17 /* JGProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +67,10 @@
 				3C2930F22A4A034400124F17 /* AppDelegate.swift */,
 				3C2930F42A4A034400124F17 /* SceneDelegate.swift */,
 				3C2930F62A4A034400124F17 /* ViewController.swift */,
-				3C2930F82A4A034400124F17 /* Main.storyboard */,
+				3C29310D2A4A09CA00124F17 /* Main.storyboard */,
+				3C29310F2A4A09D100124F17 /* LaunchScreen.storyboard */,
+				3C29310B2A4A09C100124F17 /* Settings.swift */,
+				3C2931092A4A09BB00124F17 /* UserDefaults.swift */,
 				3C2930FB2A4A034500124F17 /* Assets.xcassets */,
 				3C2930FD2A4A034500124F17 /* LaunchScreen.storyboard */,
 				3C2931002A4A034500124F17 /* Info.plist */,
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = SarmanFarms;
+			packageProductDependencies = (
+				3C2931072A4A09A400124F17 /* JGProgressHUD */,
+			);
 			productName = SarmanFarms;
 			productReference = 3C2930EF2A4A034400124F17 /* SarmanFarms.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 3C2930E62A4A034400124F17;
+			packageReferences = (
+				3C2931062A4A09A400124F17 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
 			productRefGroup = 3C2930F02A4A034400124F17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C29310E2A4A09CA00124F17 /* Main.storyboard in Resources */,
+				3C2931102A4A09D100124F17 /* LaunchScreen.storyboard in Resources */,
 				3C2930FF2A4A034500124F17 /* LaunchScreen.storyboard in Resources */,
 				3C2930FC2A4A034500124F17 /* Assets.xcassets in Resources */,
-				3C2930FA2A4A034400124F17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +156,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C29310A2A4A09BB00124F17 /* UserDefaults.swift in Sources */,
 				3C2930F72A4A034400124F17 /* ViewController.swift in Sources */,
 				3C2930F32A4A034400124F17 /* AppDelegate.swift in Sources */,
 				3C2930F52A4A034400124F17 /* SceneDelegate.swift in Sources */,
+				3C29310C2A4A09C100124F17 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3C2930F82A4A034400124F17 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C2930F92A4A034400124F17 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3C2930FD2A4A034500124F17 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,6 +302,7 @@
 				DEVELOPMENT_TEAM = TDTJJT9YLY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SarmanFarms/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sarman Farms";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +331,7 @@
 				DEVELOPMENT_TEAM = TDTJJT9YLY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SarmanFarms/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sarman Farms";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3C2931062A4A09A400124F17 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C2931072A4A09A400124F17 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C2931062A4A09A400124F17 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C2930E72A4A034400124F17 /* Project object */;
 }
