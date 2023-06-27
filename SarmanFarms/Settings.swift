@@ -10,34 +10,21 @@ import UIKit
 class Settings: UITableViewController, UITextFieldDelegate {
     @IBOutlet var swi: UISwitch!
     
-    @IBOutlet var bioSwitch: UISwitch!
     
     @IBOutlet weak var label: TappableLabel!
     @IBOutlet weak var terms: TappableLabel!
     @IBOutlet weak var pri: TappableLabel!
     
-    @IBOutlet weak var userView: UIView!
-    @IBOutlet weak var passView: UIView!
-    
-    @IBOutlet weak var userText: UITextField!
-    @IBOutlet weak var passText: UITextField!
     
     
     override func viewDidLoad() {
         self.navigationItem.title = "Settings"
         
         swi.setOn(UserDefaults.standard.showNotification, animated: true)
-        bioSwitch.setOn(UserDefaults.standard.isBiomaticOn, animated: true)
         updateView()
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 85
-        userText.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
-        passText.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
-        userText.delegate = self
-        passText.delegate = self
         
-        passText.text = UserDefaults.standard.password
-        userText.text = UserDefaults.standard.userName
         
     }
     
@@ -48,19 +35,14 @@ class Settings: UITableViewController, UITextFieldDelegate {
     }
     @objc func textFieldDidChange(_ textField: UITextField) {
         
-        if textField == userText {
-            UserDefaults.standard.userName = textField.text!
-            
-        } else if textField == passText {
-            UserDefaults.standard.password = textField.text!
-        }
+     
         
     }
 
     
     override func viewWillAppear(_ animated: Bool) {
         
-        let attributedString = NSMutableAttributedString(attributedString: label.attributedText!)
+        _ = NSMutableAttributedString(attributedString: label.attributedText!)
         
         label.isUserInteractionEnabled = true
         terms.isUserInteractionEnabled = true
@@ -84,8 +66,8 @@ class Settings: UITableViewController, UITextFieldDelegate {
     
     
     
-    @IBAction func call(_ sender: Any) {
-        let phoneNumber = "08135534866" // Replace with the desired phone number
+    @IBAction func call(_ sender: UIButton) {
+        let phoneNumber = sender.titleLabel?.text ?? "09163090893" // Replace with the desired phone number
                
                if let phoneURL = URL(string: "tel:\(phoneNumber)") {
                    if UIApplication.shared.canOpenURL(phoneURL) {
@@ -108,8 +90,6 @@ class Settings: UITableViewController, UITextFieldDelegate {
     
     func updateView() {
         UIView.animate(withDuration: 0.3) {
-            self.passView.isHidden = !UserDefaults.standard.isBiomaticOn
-            self.userView.isHidden = !UserDefaults.standard.isBiomaticOn
         }
         tableView.reloadData()
     }

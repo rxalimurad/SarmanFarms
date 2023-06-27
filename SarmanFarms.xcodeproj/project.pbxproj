@@ -17,6 +17,7 @@
 		3C29310C2A4A09C100124F17 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C29310B2A4A09C100124F17 /* Settings.swift */; };
 		3C29310E2A4A09CA00124F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C29310D2A4A09CA00124F17 /* Main.storyboard */; };
 		3C2931102A4A09D100124F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C29310F2A4A09D100124F17 /* LaunchScreen.storyboard */; };
+		5F99EA7F2A4AD80A0030073A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F99EA7E2A4AD80A0030073A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3C29310B2A4A09C100124F17 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		3C29310D2A4A09CA00124F17 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3C29310F2A4A09D100124F17 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F99EA7E2A4AD80A0030073A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				3C29310D2A4A09CA00124F17 /* Main.storyboard */,
 				3C29310F2A4A09D100124F17 /* LaunchScreen.storyboard */,
 				3C29310B2A4A09C100124F17 /* Settings.swift */,
+				5F99EA7E2A4AD80A0030073A /* GoogleService-Info.plist */,
 				3C2931092A4A09BB00124F17 /* UserDefaults.swift */,
 				3C2930FB2A4A034500124F17 /* Assets.xcassets */,
 				3C2930FD2A4A034500124F17 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			files = (
 				3C29310E2A4A09CA00124F17 /* Main.storyboard in Resources */,
 				3C2931102A4A09D100124F17 /* LaunchScreen.storyboard in Resources */,
+				5F99EA7F2A4AD80A0030073A /* GoogleService-Info.plist in Resources */,
 				3C2930FF2A4A034500124F17 /* LaunchScreen.storyboard in Resources */,
 				3C2930FC2A4A034500124F17 /* Assets.xcassets in Resources */,
 			);
