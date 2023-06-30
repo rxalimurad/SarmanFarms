@@ -15,7 +15,6 @@ class ViewController: UIViewController, WKNavigationDelegate , WKUIDelegate{
     @IBOutlet private var webKit: WKWebView!
     @IBOutlet private var image: UIImageView!
     @IBOutlet private var act: UIActivityIndicatorView!
-    @IBOutlet private var topConst: NSLayoutConstraint!
     
     @IBOutlet weak var autoLogin: UIButton!
     
@@ -46,11 +45,13 @@ class ViewController: UIViewController, WKNavigationDelegate , WKUIDelegate{
         } else {
             autoLogin.isHidden = true
         }
+        autoLogin.isHidden = true
     }
     override func viewDidLoad() {
         autoLogin.isHidden = true
         super.viewDidLoad()
         hud.textLabel.text = "Loading"
+
         webKit.scrollView.bounces = false
         webKit.navigationDelegate = self
         webKit.isHidden = true
@@ -65,7 +66,6 @@ class ViewController: UIViewController, WKNavigationDelegate , WKUIDelegate{
         webKit.configuration.userContentController.addUserScript(userScript)
         
         
-        topConst.constant = topConst.constant - (navigationController?.navigationBar.frame.height ?? 0)
         
         backButton = UIBarButtonItem(image: UIImage(systemName: "arrow.backward"), style: .plain, target: self, action: #selector(backButtonPressed))
 //        logoutButton = UIBarButtonItem(image: UIImage(systemName: "arrowshape.turn.up.left"), style: .plain, target: self, action: #selector(backButtonPressed))
@@ -110,7 +110,9 @@ class ViewController: UIViewController, WKNavigationDelegate , WKUIDelegate{
         .allow
     }
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
-        hud.show(in: self.view)
+        if act.isHidden {
+            hud.show(in: self.view)
+        }
         if let pageTitle = webView.title {
             self.navigationController?.title = "Home"
             self.navigationItem.title = pageTitle
@@ -134,7 +136,6 @@ class ViewController: UIViewController, WKNavigationDelegate , WKUIDelegate{
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         hud.dismiss()
         
-            autoLogin.isHidden = !(UserDefaults.standard.isBiomaticOn  && !UserDefaults.standard.userName.isEmpty && !UserDefaults.standard.password.isEmpty && webView.url == URL(string: self.url))
                 
         webView.evaluateJavaScript("document.title") { (result, error) in
             if let title = result as? String {

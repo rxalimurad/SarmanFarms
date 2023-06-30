@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,17 +15,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="baq-g8-oAZ">
-                                <rect key="frame" x="40" y="59" width="313" height="759"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="baq-g8-oAZ">
+                                <rect key="frame" x="161.66666666666666" y="391" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="s0O-g9-JeV"/>
+                                    <constraint firstAttribute="height" constant="70" id="uMJ-CP-T4B"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.39215686274509803" green="0.71764705882352942" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="baq-g8-oAZ" secondAttribute="bottom" id="LLK-fJ-u0R"/>
-                            <constraint firstItem="baq-g8-oAZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Wz9-su-UX6"/>
-                            <constraint firstItem="baq-g8-oAZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="amo-aO-2F7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="baq-g8-oAZ" secondAttribute="trailing" constant="40" id="omb-0o-PqR"/>
+                            <constraint firstItem="baq-g8-oAZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="LwQ-4E-tsb"/>
+                            <constraint firstItem="baq-g8-oAZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WUO-QF-ma0"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,9 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="462" height="299"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="splash" width="500" height="500"/>
     </resources>
 </document>

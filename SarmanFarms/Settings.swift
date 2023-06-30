@@ -10,21 +10,18 @@ import UIKit
 class Settings: UITableViewController, UITextFieldDelegate {
     @IBOutlet var swi: UISwitch!
     
-    
-    @IBOutlet weak var label: TappableLabel!
     @IBOutlet weak var terms: TappableLabel!
     @IBOutlet weak var pri: TappableLabel!
-    
     
     
     override func viewDidLoad() {
         self.navigationItem.title = "Settings"
         
         swi.setOn(UserDefaults.standard.showNotification, animated: true)
+        
         updateView()
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 85
-        
         
     }
     
@@ -35,16 +32,13 @@ class Settings: UITableViewController, UITextFieldDelegate {
     }
     @objc func textFieldDidChange(_ textField: UITextField) {
         
-     
         
     }
 
     
     override func viewWillAppear(_ animated: Bool) {
         
-        _ = NSMutableAttributedString(attributedString: label.attributedText!)
-        
-        label.isUserInteractionEnabled = true
+                
         terms.isUserInteractionEnabled = true
         pri.isUserInteractionEnabled = true
         
@@ -66,8 +60,8 @@ class Settings: UITableViewController, UITextFieldDelegate {
     
     
     
-    @IBAction func call(_ sender: UIButton) {
-        let phoneNumber = sender.titleLabel?.text ?? "09163090893" // Replace with the desired phone number
+    @IBAction func call(_ sender: Any) {
+        let phoneNumber = "08135534866" // Replace with the desired phone number
                
                if let phoneURL = URL(string: "tel:\(phoneNumber)") {
                    if UIApplication.shared.canOpenURL(phoneURL) {

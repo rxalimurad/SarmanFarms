@@ -7,32 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C130D442A4EE6F30009B63A /* ContactUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C130D432A4EE6F30009B63A /* ContactUS.swift */; };
 		3C2930F32A4A034400124F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2930F22A4A034400124F17 /* AppDelegate.swift */; };
 		3C2930F52A4A034400124F17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2930F42A4A034400124F17 /* SceneDelegate.swift */; };
 		3C2930F72A4A034400124F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2930F62A4A034400124F17 /* ViewController.swift */; };
 		3C2930FC2A4A034500124F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2930FB2A4A034500124F17 /* Assets.xcassets */; };
-		3C2930FF2A4A034500124F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2930FD2A4A034500124F17 /* LaunchScreen.storyboard */; };
 		3C2931082A4A09A400124F17 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 3C2931072A4A09A400124F17 /* JGProgressHUD */; };
 		3C29310A2A4A09BB00124F17 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2931092A4A09BB00124F17 /* UserDefaults.swift */; };
 		3C29310C2A4A09C100124F17 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C29310B2A4A09C100124F17 /* Settings.swift */; };
 		3C29310E2A4A09CA00124F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C29310D2A4A09CA00124F17 /* Main.storyboard */; };
 		3C2931102A4A09D100124F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C29310F2A4A09D100124F17 /* LaunchScreen.storyboard */; };
-		5F99EA7F2A4AD80A0030073A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F99EA7E2A4AD80A0030073A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C130D432A4EE6F30009B63A /* ContactUS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUS.swift; sourceTree = "<group>"; };
 		3C2930EF2A4A034400124F17 /* SarmanFarms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SarmanFarms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2930F22A4A034400124F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C2930F42A4A034400124F17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3C2930F62A4A034400124F17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C2930FB2A4A034500124F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3C2930FE2A4A034500124F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C2931002A4A034500124F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C2931092A4A09BB00124F17 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		3C29310B2A4A09C100124F17 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		3C29310D2A4A09CA00124F17 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3C29310F2A4A09D100124F17 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5F99EA7E2A4AD80A0030073A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +70,10 @@
 				3C29310D2A4A09CA00124F17 /* Main.storyboard */,
 				3C29310F2A4A09D100124F17 /* LaunchScreen.storyboard */,
 				3C29310B2A4A09C100124F17 /* Settings.swift */,
-				5F99EA7E2A4AD80A0030073A /* GoogleService-Info.plist */,
 				3C2931092A4A09BB00124F17 /* UserDefaults.swift */,
 				3C2930FB2A4A034500124F17 /* Assets.xcassets */,
-				3C2930FD2A4A034500124F17 /* LaunchScreen.storyboard */,
 				3C2931002A4A034500124F17 /* Info.plist */,
+				3C130D432A4EE6F30009B63A /* ContactUS.swift */,
 			);
 			path = SarmanFarms;
 			sourceTree = "<group>";
@@ -147,8 +144,6 @@
 			files = (
 				3C29310E2A4A09CA00124F17 /* Main.storyboard in Resources */,
 				3C2931102A4A09D100124F17 /* LaunchScreen.storyboard in Resources */,
-				5F99EA7F2A4AD80A0030073A /* GoogleService-Info.plist in Resources */,
-				3C2930FF2A4A034500124F17 /* LaunchScreen.storyboard in Resources */,
 				3C2930FC2A4A034500124F17 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C130D442A4EE6F30009B63A /* ContactUS.swift in Sources */,
 				3C29310A2A4A09BB00124F17 /* UserDefaults.swift in Sources */,
 				3C2930F72A4A034400124F17 /* ViewController.swift in Sources */,
 				3C2930F32A4A034400124F17 /* AppDelegate.swift in Sources */,
@@ -169,17 +165,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3C2930FD2A4A034500124F17 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C2930FE2A4A034500124F17 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C2931012A4A034500124F17 /* Debug */ = {
@@ -308,7 +293,7 @@
 				INFOPLIST_FILE = SarmanFarms/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sarman Farms";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -337,7 +322,7 @@
 				INFOPLIST_FILE = SarmanFarms/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sarman Farms";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
